@@ -1,0 +1,4 @@
+FROM ubuntu
+COPY sc12.sh .
+RUN chmod ugo+x sc12.sh
+CMD ./sc12.sh
